@@ -41,7 +41,7 @@
       <swiper-slide class="bg-beaumonts">
         <div class="relative">
           <div class="carousel-image">
-            <!-- <img src="~/static/beaumontLogo.svg" /> -->
+            <img src="~/static/BeaumontLogo.svg" />
           </div>
           <div class=" p-8 absolute bottom-0">
             <h2>Beaumont Tiles</h2>
