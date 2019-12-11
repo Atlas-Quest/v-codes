@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="md:container md:flex md:justify-center md:text-center md:mx-auto md:max-w-5xl p-8">
+  <div class="md:h-screen md:container md:flex md:justify-center md:text-center md:mx-auto md:max-w-5xl p-8 mb-8">
     <div>
       <h2 class="mb-8  text-3xl">About</h2>
       <p>Bubbly, quirky, and sharp Web Developer with a demonstrated working history in the web development and telecommunications industry. </p>
