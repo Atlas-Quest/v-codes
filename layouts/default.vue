@@ -1,7 +1,7 @@
 <template>
   <div>
-    <mobile-header></mobile-header>
-    <!-- <desktop-header class=""></desktop-header> -->
+    <mobile-header class="lg:hidden"></mobile-header>
+    <desktop-header class="hidden lg:block"></desktop-header>
     <nuxt />
     <site-footer></site-footer>
   </div>
@@ -9,14 +9,15 @@
 
 <script>
 import MobileHeader from "~/components/header/mobile/Header";
+import DesktopHeader from "~/components/header/Header";
 import SiteFooter from "~/components/Footer";
-// import DesktopHeader from "~/components/header/Header";
+
 export default {
   name: "Layout",
   components: {
     MobileHeader,
+    DesktopHeader,
     SiteFooter
-    // DesktopHeader
   }
 };
 </script>

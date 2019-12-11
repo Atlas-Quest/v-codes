@@ -1,9 +1,8 @@
 <template>
 <div>
-  <default-header></default-header>
-  <div class="p-8">
-    <h2 class="font-hairline text-3xl">About</h2>
-    <div class="mt-8">
+  <div class="md:container md:flex md:justify-center md:text-center md:mx-auto md:max-w-5xl p-8">
+    <div>
+      <h2 class="mb-8  text-3xl">About</h2>
       <p>Bubbly, quirky, and sharp Web Developer with a demonstrated working history in the web development and telecommunications industry. </p>
       <br>
       <p>I began my career working in call centres and have continuously sought to improve my technical skills to become a Web Developer.</p>
@@ -20,12 +19,7 @@
 </template>
 
 <script>
-import DefaultHeader from '~/components/header/Header'
-
 export default {
-	name: 'About',
-	components: {
-		DefaultHeader
-	}
+	name: 'About'
 }
 </script>
