@@ -5,14 +5,11 @@
 </template>
 
 <script>
-import MobileHeader from '~/components/header/mobile/Header';
+import MobileHeader from '~/components/header/mobile/Header'
 export default {
-  name: 'Header',
-  components: {
-    MobileHeader
-  }
+	name: 'Header',
+	components: {
+		MobileHeader
+	}
 }
 </script>
-
-<style lang="css" scoped>
-</style>
