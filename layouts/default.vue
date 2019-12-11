@@ -16,7 +16,6 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   /* scroll-behavior: smooth; */
-  @apply bg-gray-100;
 }
 
 *,
