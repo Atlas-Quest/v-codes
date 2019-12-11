@@ -1,7 +1,7 @@
 <template>
 <div>
   <default-header></default-header>
-  <div class="p-8">
+  <div class="lg:container p-8">
     <h2 class="font-hairline text-3xl">About</h2>
     <div class="mt-8">
       <p>Bubbly, quirky, and sharp Web Developer with a demonstrated working history in the web development and telecommunications industry. </p>
