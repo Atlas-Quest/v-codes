@@ -1,5 +1,5 @@
 <template>
-<div class="fixed inset-0 p-8 bg-white z-20">
+<div class="fixed inset-0 p-8 bg-white z-30">
   <div class="flex items-center">
     <div class="w-1/2 justify-start items-center">
       <h1 class="font-black">
