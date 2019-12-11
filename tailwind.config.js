@@ -24,7 +24,8 @@ const tailwind = {
       colors: {
         mint: "#a4d7d4",
         action: "#5f1544",
-        hendercare: "#fff3f1"
+        hendercare: "#fff3f1",
+        footer: "#242528"
       }
     },
     variants: {},

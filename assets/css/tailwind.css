@@ -1,11 +1,9 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 html {
-  font-family: 'Muli',
-    sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 32px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -15,3 +13,14 @@ html {
   box-sizing: border-box;
   /* scroll-behavior: smooth; */
 }
+
+/* .swiper-pagination ::v-deep { */
+.swiper-pagination-bullet {
+  opacity: 1 !important;
+  /* border: black solid 1px; */
+  background-color: black !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+/* } */
