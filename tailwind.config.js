@@ -6,31 +6,32 @@
  */
 
 const tailwind = {
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: [
-          "Muli",
-          "Source Sans Pro",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          "Segoe UI",
-          "Roboto",
-          "Helvetica Neue",
-          "Arial",
-          "sans-serif"
-        ]
-      },
-      colors: {
-        mint: "#a4d7d4",
-        action: "#5f1544",
-        hendercare: "#fff3f1",
-        footer: "#242528"
-      }
-    },
-    variants: {},
-    plugins: []
-  }
-};
+	theme: {
+		extend: {
+			fontFamily: {
+				sans: [
+					'Muli',
+					'Quicksand',
+					'Source Sans Pro',
+					'-apple-system',
+					'BlinkMacSystemFont',
+					'Segoe UI',
+					'Roboto',
+					'Helvetica Neue',
+					'Arial',
+					'sans-serif'
+				]
+			},
+			colors: {
+				beaumonts: '#f8f8f7',
+				action: '#5f1544',
+				hendercare: '#fff3f1',
+				footer: '#242528'
+			}
+		},
+		variants: {},
+		plugins: []
+	}
+}
 
-module.exports = tailwind;
+module.exports = tailwind

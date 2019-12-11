@@ -1,12 +1,12 @@
 <template>
-<div class="fixed inset-0 p-8 bg-white">
+<div class="fixed inset-0 p-8 bg-white z-20">
   <div class="flex items-center">
     <div class="w-1/2 justify-start items-center">
       <h1 class="font-black">
         <nuxt-link to="/">
           <img class="h-16"
                src="~/static/Logo.png"
-               alt="logo">
+               alt="logo" />
         </nuxt-link>
       </h1>
     </div>
