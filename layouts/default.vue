@@ -1,13 +1,23 @@
 <template>
-<div>
-  <nuxt />
-</div>
+  <div>
+    <mobile-header></mobile-header>
+    <nuxt />
+  </div>
 </template>
+
+<script>
+import MobileHeader from "~/components/header/mobile/Header";
+export default {
+  name: "Layout",
+  components: {
+    MobileHeader
+  }
+};
+</script>
 
 <style>
 html {
-  font-family: 'Muli',
-    sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
