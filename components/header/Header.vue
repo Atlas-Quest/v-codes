@@ -1,5 +1,8 @@
 <template>
 <div>
+  <!-- <img class="h-16"
+       src="~/static/Logo.png"
+       alt="logo"> -->
   <mobile-header></mobile-header>
 </div>
 </template>

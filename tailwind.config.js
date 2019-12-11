@@ -7,20 +7,20 @@
 
 const tailwind = {
   theme: {
-    fontFamily: {
-      sans: [
-        "Muli",
-        "Source Sans Pro",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        "Segoe UI",
-        "Roboto",
-        "Helvetica Neue",
-        "Arial",
-        "sans-serif"
-      ]
-    },
     extend: {
+      fontFamily: {
+        sans: [
+          "Muli",
+          "Source Sans Pro",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "sans-serif"
+        ]
+      },
       colors: {
         mint: "#a4d7d4",
         action: "#5f1544",
