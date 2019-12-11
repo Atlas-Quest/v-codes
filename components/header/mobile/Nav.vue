@@ -16,7 +16,7 @@
     </div>
   </div>
 
-  <div class="flex flex-col w-full mt-8  text-3xl">
+  <div class="flex flex-col w-full mt-16 text-3xl">
     <h2 class="pb-8">
       <nuxt-link to="/about">
         About
