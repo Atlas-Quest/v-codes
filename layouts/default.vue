@@ -1,16 +1,19 @@
 <template>
   <div>
     <mobile-header></mobile-header>
+    <!-- <desktop-header class=""></desktop-header> -->
     <nuxt />
   </div>
 </template>
 
 <script>
 import MobileHeader from "~/components/header/mobile/Header";
+// import DesktopHeader from "~/components/header/Header";
 export default {
   name: "Layout",
   components: {
     MobileHeader
+    // DesktopHeader
   }
 };
 </script>
