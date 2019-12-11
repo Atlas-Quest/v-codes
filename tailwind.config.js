@@ -22,7 +22,7 @@ const tailwind = {
         ]
       },
       colors: {
-        mint: "#a4d7d4",
+        beaumonts: "#f8f8f7",
         action: "#5f1544",
         hendercare: "#fff3f1",
         footer: "#242528"

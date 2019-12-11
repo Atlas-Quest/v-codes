@@ -18,9 +18,12 @@
               <!-- <img src="~/static/samuseum.jpeg" class="mx-auto action-image" /> -->
               <sam-logo class="text-white absolute top-4 z-20"></sam-logo>
             </div>
-            <div class="p-4 absolute bottom-0 text-white z-20">
+            <div class="p-8 absolute bottom-0 text-white z-20">
               <h2>SA Museum</h2>
-              <p>Description here</p>
+              <p>
+                Website for South Australia's largest collection of cultural and
+                National history.
+              </p>
             </div>
           </div>
         </swiper-slide>
@@ -32,20 +35,23 @@
                 class="mx-auto action-image"
               />
             </div>
-            <div class="p-4 absolute bottom-0">
+            <div class="p-8 absolute bottom-0">
               <h2>Hendercare</h2>
-              <p>Description here</p>
+              <p>
+                WebApp to help manage Hendercare, an aged care and disability
+                service provider.
+              </p>
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide class="bg-mint">
+        <swiper-slide class="bg-beaumonts">
           <div class="relative">
             <div class="carousel-image">
-              <img src="~/static/beaumonts.png" />
+              <img src="~/static/beaumontLogo.svg" />
             </div>
-            <div class="text-white p-4 absolute bottom-0">
-              <h2>Beaumonts</h2>
-              <p>Description here</p>
+            <div class=" p-8 absolute bottom-0">
+              <h2>Beaumont Tiles</h2>
+              <p>Website for South Australian distributor of high-end tiles.</p>
             </div>
           </div>
         </swiper-slide>
@@ -57,9 +63,9 @@
                 class="mx-auto action-image"
               />
             </div>
-            <div class="text-white p-4 absolute bottom-0">
-              <h2>Action Market Research</h2>
-              <p>Description here</p>
+            <div class="text-white p-8 absolute bottom-0">
+              <h2>Action</h2>
+              <p>Pamphlet style website for Action Market Research.</p>
             </div>
           </div>
         </swiper-slide>
