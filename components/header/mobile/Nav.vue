@@ -7,7 +7,7 @@
   </div>
   <div class="flex flex-col w-full mt-8 font-hairline text-3xl">
     <h2 class="pb-8">
-      <nuxt-link :to="'/about'">
+      <nuxt-link :to="toAbout()">
         About
       </nuxt-link>
     </h2>
@@ -24,6 +24,12 @@
 import iClose from '~/components/icons/Close'
 export default {
 	name: 'MobileNav',
-	components: { iClose }
+	components: { iClose },
+	methods: {
+		toAbout() {
+			this.$emit('close')
+			return '/about'
+		}
+	}
 }
 </script>
