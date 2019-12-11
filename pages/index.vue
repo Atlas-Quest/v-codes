@@ -1,13 +1,11 @@
-<template>
-<default-header></default-header>
+<template >
+<div>
+  welcome bitches
+</div>
 </template>
 
 <script>
-import DefaultHeader from '~/components/header/Header'
-
 export default {
-	components: {
-		DefaultHeader
-	}
+	name: 'Home'
 }
 </script>

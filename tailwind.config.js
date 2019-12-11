@@ -4,24 +4,32 @@
  ** Docs: https://tailwindcss.com/docs/configuration
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
-module.exports = {
-	theme: {
-		extends: {
-			fontFamily: {
-				sans: [
-					'Muli',
-					'Source Sans Pro',
-					'-apple-system',
-					'BlinkMacSystemFont',
-					'Segoe UI',
-					'Roboto',
-					'Helvetica Neue',
-					'Arial',
-					'sans-serif',
-				],
-			},
-		}
-	},
-	variants: {},
-	plugins: []
-}
+
+const tailwind = {
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: [
+          "Muli",
+          "Source Sans Pro",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "sans-serif"
+        ]
+      },
+      colors: {
+        mint: "#a4d7d4",
+        action: "#5f1544",
+        hendercare: "#fff3f1"
+      }
+    },
+    variants: {},
+    plugins: []
+  }
+};
+
+module.exports = tailwind;

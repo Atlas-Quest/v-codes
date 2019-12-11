@@ -1,13 +1,26 @@
 <template>
 <div>
+  <mobile-header class="lg:hidden"></mobile-header>
+  <desktop-header class="hidden lg:block"></desktop-header>
   <nuxt />
 </div>
 </template>
 
+<script>
+import MobileHeader from '~/components/header/mobile/Header'
+import DesktopHeader from '~/components/header/Header'
+export default {
+	name: 'Layout',
+	components: {
+		MobileHeader,
+		DesktopHeader
+	}
+}
+</script>
+
 <style>
 html {
-  font-family: 'Muli',
-    sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
