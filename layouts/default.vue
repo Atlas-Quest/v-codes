@@ -1,21 +1,25 @@
 <template>
-<div>
-  <mobile-header class="lg:hidden"></mobile-header>
-  <desktop-header class="hidden lg:block"></desktop-header>
-  <nuxt />
-</div>
+  <div>
+    <mobile-header class="lg:hidden"></mobile-header>
+    <desktop-header class="hidden lg:block"></desktop-header>
+    <nuxt />
+    <site-footer></site-footer>
+  </div>
 </template>
 
 <script>
-import MobileHeader from '~/components/header/mobile/Header'
-import DesktopHeader from '~/components/header/Header'
+import MobileHeader from "~/components/header/mobile/Header";
+import DesktopHeader from "~/components/header/Header";
+import SiteFooter from "~/components/Footer";
+
 export default {
-	name: 'Layout',
-	components: {
-		MobileHeader,
-		DesktopHeader
-	}
-}
+  name: "Layout",
+  components: {
+    MobileHeader,
+    DesktopHeader,
+    SiteFooter
+  }
+};
 </script>
 
 <style>
