@@ -8,7 +8,7 @@
           Welcome
         </h2>
         <h2 class="welcome-subtext">
-          I'm Ness. I'm a Web Developer.
+          I'm Ness. I'm a Full Stack Web Developer.
         </h2>
       </div>
     </div>
