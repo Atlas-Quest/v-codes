@@ -10,7 +10,6 @@
           <div class="scrim absolute top-0 z-10"></div>
           <div class="carousel-image sam-image bg-black relative"
                style="background-image: url('https://img.samuseum.sa.gov.au/w-755.h-550.f-jpg/qk39g4c5h');">
-            <!-- <img src="~/static/samuseum.jpeg" class="mx-auto action-image" /> -->
             <sam-logo class="text-white absolute top-4 z-20"></sam-logo>
           </div>
           <div class="p-8 absolute bottom-0 text-white z-20">
@@ -134,28 +133,44 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .beaumonts-card {
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .carousel-image {
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sam-image {
-  background-position: center;
-  background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .scrim {
-  background-color: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  height: 100%;
-  width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: unset;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .swiper-pagination-bullet {
+        opacity: 1 !important;
+        background-color: rgba(0, 0, 0, 0.2) !important;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: rgba(0, 0, 0, 0.7) !important;
+    }
 }
 </style>

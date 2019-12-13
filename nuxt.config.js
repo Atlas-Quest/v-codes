@@ -7,7 +7,7 @@ module.exports = {
 		fallback: true
 	},
 	head: {
-		title: 'Vanessa Dohnt',
+		title: 'Vanessa Dohnt | Full Stack Web Developer',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
