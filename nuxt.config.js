@@ -7,14 +7,14 @@ module.exports = {
 		fallback: true
 	},
 	head: {
-		title: process.env.npm_package_name || '',
+		title: 'Vanessa Dohnt',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{
 				hid: 'description',
 				name: 'description',
-				content: process.env.npm_package_description || ''
+				content: 'Personal Portfolio'
 			}
 		],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/Logo.png' }, { href: 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css', rel: 'stylesheet' }]
