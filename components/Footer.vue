@@ -21,7 +21,7 @@
          width="auto" />
   </div>
   <div class="flex items-center justify-center pt-4 md:pt-0 text-center md:text-right">
-    2019 Vanessa Codes
+    2019 Vanessa Dohnt
   </div>
 </div>
 </template>
