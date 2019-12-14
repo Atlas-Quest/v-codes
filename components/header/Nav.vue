@@ -1,10 +1,12 @@
 <template>
 <div class="flex items-center justify-end w-full">
-  <h2 class="mr-4">
-    <nuxt-link to="/">
-      Home
-    </nuxt-link>
-  </h2>
+  <div class="mr-4">
+    <h2>
+      <nuxt-link to="/">
+        Home
+      </nuxt-link>
+    </h2>
+  </div>
   <h2 class="mr-4">
     <nuxt-link to="/about">
       About

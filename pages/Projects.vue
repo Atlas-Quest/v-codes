@@ -5,20 +5,23 @@
     <swiper :options="swiperOption"
             ref="mySwiper">
       <swiper-slide>
-        <div class="relative">
-          <div class="scrim absolute top-0 z-10"></div>
-          <div class="carousel-image sam-image bg-black relative"
-               style="background-image: url('https://img.samuseum.sa.gov.au/w-755.h-550.f-jpg/qk39g4c5h');">
-            <sam-logo class="text-white absolute top-4 z-20"></sam-logo>
+        <a href="https://www.samuseum.sa.gov.au/"
+           target="_blank">
+          <div class="relative">
+            <div class="scrim absolute top-0 z-10"></div>
+            <div class="carousel-image sam-image bg-black relative"
+                 style="background-image: url('https://img.samuseum.sa.gov.au/w-755.h-550.f-jpg/qk39g4c5h');">
+              <sam-logo class="text-white absolute top-4 z-20"></sam-logo>
+            </div>
+            <div class="p-8 absolute bottom-0 text-white z-20">
+              <h2>SA Museum</h2>
+              <p>
+                Website for South Australia's largest collection of cultural and
+                National history.
+              </p>
+            </div>
           </div>
-          <div class="p-8 absolute bottom-0 text-white z-20">
-            <h2>SA Museum</h2>
-            <p>
-              Website for South Australia's largest collection of cultural and
-              National history.
-            </p>
-          </div>
-        </div>
+        </a>
       </swiper-slide>
       <swiper-slide class="bg-hendercare">
         <div class="relative">
@@ -36,27 +39,33 @@
         </div>
       </swiper-slide>
       <swiper-slide class="bg-beaumonts">
-        <div class="relative">
-          <div class="carousel-image">
-            <img src="~/static/BeaumontLogo.svg" />
+        <a href="https://www.beaumont-tiles.com.au/"
+           target="_blank">
+          <div class="relative">
+            <div class="carousel-image">
+              <img src="~/static/BeaumontLogo.svg" />
+            </div>
+            <div class=" p-8 absolute bottom-0">
+              <h2>Beaumont Tiles</h2>
+              <p>Website for South Australian distributor of high-end tiles.</p>
+            </div>
           </div>
-          <div class=" p-8 absolute bottom-0">
-            <h2>Beaumont Tiles</h2>
-            <p>Website for South Australian distributor of high-end tiles.</p>
-          </div>
-        </div>
+        </a>
       </swiper-slide>
       <swiper-slide class="bg-action">
-        <div class="relative">
-          <div class="carousel-image">
-            <img src="~/static/actionMarketResearch.svg"
-                 class="mx-auto action-image" />
+        <a href="http://www.actionresearch.com.au"
+           target="_blank">
+          <div class="relative">
+            <div class="carousel-image">
+              <img src="~/static/actionMarketResearch.svg"
+                   class="mx-auto action-image" />
+            </div>
+            <div class="text-white p-8 absolute bottom-0">
+              <h2>Action</h2>
+              <p>Pamphlet style website for Action Market Research.</p>
+            </div>
           </div>
-          <div class="text-white p-8 absolute bottom-0">
-            <h2>Action</h2>
-            <p>Pamphlet style website for Action Market Research.</p>
-          </div>
-        </div>
+        </a>
       </swiper-slide>
       <div class="swiper-pagination"
            slot="pagination"></div>
