@@ -24,19 +24,22 @@
         </a>
       </swiper-slide>
       <swiper-slide class="bg-hendercare">
-        <div class="relative">
-          <div class="carousel-image">
-            <img src="~/static/hendercareLogo.svg"
-                 class="mx-auto action-image" />
+        <a href="https://www.hendercare.com.au/"
+           target="_blank">
+          <div class="relative">
+            <div class="carousel-image">
+              <img src="~/static/hendercareLogo.svg"
+                   class="mx-auto action-image" />
+            </div>
+            <div class="p-8 absolute bottom-0">
+              <h2>Hendercare</h2>
+              <p>
+                Internal Booking System WebApp to help manage Hendercare, an aged care and disability
+                service provider.
+              </p>
+            </div>
           </div>
-          <div class="p-8 absolute bottom-0">
-            <h2>Hendercare</h2>
-            <p>
-              WebApp to help manage Hendercare, an aged care and disability
-              service provider.
-            </p>
-          </div>
-        </div>
+        </a>
       </swiper-slide>
       <swiper-slide class="bg-beaumonts">
         <a href="https://www.beaumont-tiles.com.au/"
@@ -84,7 +87,7 @@ export default {
 	data() {
 		return {
 			swiperOption: {
-				slidesPerView: 3,
+				slidesPerView: 2,
 				spaceBetween: 40,
 				breakpoints: {
 					// when window width is >= 320px
@@ -102,12 +105,13 @@ export default {
 					// when window width is >= 640px
 					1280: {
 						//xl
-						slidesPerView: 3,
-						spaceBetween: 40
+						slidesPerView: 2,
+						spaceBetween: 30
 					}
 				},
 				pagination: {
-					el: '.swiper-pagination'
+					el: '.swiper-pagination',
+					clickable: true
 				}
 				// some swiper options/callbacks
 				// 所有的参数同 swiper 官方 api 参数

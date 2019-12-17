@@ -2,7 +2,7 @@
 <div class="fixed inset-0 p-8 bg-white z-30">
   <div class="flex items-center">
     <div class="w-1/2 justify-start items-center">
-      <h1 class="font-black">
+      <h1 class="text-black">
         <nuxt-link to="/">
           <img class="h-16"
                src="~/static/Logo.png"
