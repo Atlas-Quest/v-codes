@@ -1,7 +1,5 @@
 <template>
 <svg class="fill-current"
-     height="70px"
-     width="70px"
      version="1.1"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      viewBox="32 28 70 70">

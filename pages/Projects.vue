@@ -30,7 +30,7 @@
             <div class="carousel-image">
               <!-- <progressive-img src="hendercareLogo.svg"
                                 /> -->
-              <hendercare-logo class="mx-auto action-image">
+              <hendercare-logo class="h-16 mx-auto action-image">
               </hendercare-logo>
             </div>
             <div class="p-8 absolute bottom-0">
@@ -48,7 +48,9 @@
            target="_blank">
           <div class="relative">
             <div class="carousel-image">
-              <progressive-img src="BeaumontLogo.svg" />
+              <!-- <progressive-img src="BeaumontLogo.svg" /> -->
+              <beaumont-logo class="h-16 mx-auto action-image">
+              </beaumont-logo>
             </div>
             <div class=" p-8 absolute bottom-0">
               <h2>Beaumont Tiles</h2>
@@ -62,8 +64,10 @@
            target="_blank">
           <div class="relative">
             <div class="carousel-image">
-              <progressive-img src="actionMarketResearch.svg"
-                               class="mx-auto action-image" />
+              <!-- <progressive-img src="actionMarketResearch.svg"
+                               class="mx-auto action-image" /> -->
+              <action-logo class="h-16 mx-auto action-image">
+              </action-logo>
             </div>
             <div class="text-white p-8 absolute bottom-0">
               <h2>Action</h2>
@@ -80,11 +84,15 @@
 </template>
 <script>
 import HendercareLogo from '~/components/logos/HendercareLogo'
+import BeaumontLogo from '~/components/logos/BeaumontLogo'
+import ActionLogo from '~/components/logos/ActionLogo'
 
 export default {
 	name: 'Projects',
 	components: {
-		HendercareLogo
+		HendercareLogo,
+		BeaumontLogo,
+		ActionLogo
 	},
 	data() {
 		return {
