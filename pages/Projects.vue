@@ -28,8 +28,10 @@
            target="_blank">
           <div class="relative">
             <div class="carousel-image">
-              <progressive-img src="hendercareLogo.svg"
-                               class="mx-auto action-image" />
+              <!-- <progressive-img src="hendercareLogo.svg"
+                                /> -->
+              <hendercare-logo class="mx-auto action-image">
+              </hendercare-logo>
             </div>
             <div class="p-8 absolute bottom-0">
               <h2>Hendercare</h2>
@@ -77,12 +79,12 @@
 </div>
 </template>
 <script>
-import SamLogo from '~/components/SamLogo'
+import HendercareLogo from '~/components/logos/HendercareLogo'
 
 export default {
 	name: 'Projects',
 	components: {
-		SamLogo
+		HendercareLogo
 	},
 	data() {
 		return {
