@@ -9,7 +9,7 @@
       <br>
       <p>My personal belief is that we never stop learning, so being in the Tech Industry has always excited me!</p>
       <br>
-      <p>I care about technology and it's impact in our world.</p>
+      <p>I care about technology and its impact in our world.</p>
       <br>
       <p>Which is why using this technology for good is the ultimate superpower. <span><img class="inline-block h-8"
                src="~/static/superhero.png"></span></p>
