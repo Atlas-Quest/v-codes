@@ -9,10 +9,10 @@
            target="_blank">
           <div class="relative">
             <div class="scrim absolute top-0 z-10"></div>
-            <div class="carousel-image sam-image bg-black relative"
-                 style="background-image: url('https://img.samuseum.sa.gov.au/w-755.h-550.f-jpg/qk39g4c5h');">
+            <progressive-background class="carousel-image sam-image bg-black relative"
+                                    src="https://img.samuseum.sa.gov.au/w-755.h-550.f-jpg/qk39g4c5h">
               <sam-logo class="text-white absolute top-4 z-20"></sam-logo>
-            </div>
+            </progressive-background>
             <div class="p-8 absolute bottom-0 text-white z-20">
               <h2>SA Museum</h2>
               <p>
@@ -28,8 +28,8 @@
            target="_blank">
           <div class="relative">
             <div class="carousel-image">
-              <img src="~/static/hendercareLogo.svg"
-                   class="mx-auto action-image" />
+              <progressive-img src="hendercareLogo.svg"
+                               class="mx-auto action-image" />
             </div>
             <div class="p-8 absolute bottom-0">
               <h2>Hendercare</h2>
@@ -46,7 +46,7 @@
            target="_blank">
           <div class="relative">
             <div class="carousel-image">
-              <img src="~/static/BeaumontLogo.svg" />
+              <progressive-img src="BeaumontLogo.svg" />
             </div>
             <div class=" p-8 absolute bottom-0">
               <h2>Beaumont Tiles</h2>
@@ -60,8 +60,8 @@
            target="_blank">
           <div class="relative">
             <div class="carousel-image">
-              <img src="~/static/actionMarketResearch.svg"
-                   class="mx-auto action-image" />
+              <progressive-img src="actionMarketResearch.svg"
+                               class="mx-auto action-image" />
             </div>
             <div class="text-white p-8 absolute bottom-0">
               <h2>Action</h2>

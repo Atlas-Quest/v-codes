@@ -33,7 +33,7 @@ module.exports = {
 	router: {
 		middleware: 'menu'
 	},
-	plugins: ['~/plugins/vue-awesome-swiper'],
+	plugins: ['~/plugins/vue-awesome-swiper', '~/plugins/vue-progressive-image'],
 	/*
    ** Nuxt.js dev-modules
    */

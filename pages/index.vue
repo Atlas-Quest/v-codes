@@ -1,24 +1,28 @@
 <template>
 <div class="relative">
   <div class="scrim top-0 z-10"></div>
-  <div style="background-image:url('background.jpg');height:100vh;background-position:center;background-repeat:no-repeat;background-size:cover;width:100%;">
-    <div class="w-full h-full absolute text-white z-20">
-      <div class="h-full flex flex-col justify-center items-center">
-        <h2 class="xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl uppercase welcome">
-          Welcome
-        </h2>
-        <h2 class="welcome-subtext">
-          I'm Ness. I'm a Full Stack Web Developer.
-        </h2>
+  <progressive-background src="background.jpg"
+                          style="height:100vh;background-position:center;background-repeat:no-repeat;background-size:cover;width:100%;">
+    <div slot="content"
+         class="h-screen">
+      <div class="w-full h-full absolute text-white z-20">
+        <div class="h-full flex flex-col justify-center items-center">
+          <h2 class="xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl uppercase welcome">
+            Welcome
+          </h2>
+          <h2 class="welcome-subtext">
+            I'm Ness. I'm a Full Stack Web Developer.
+          </h2>
+        </div>
       </div>
     </div>
-  </div>
+  </progressive-background>
 </div>
 </template>
 
 <script>
 export default {
-	name: 'Home'
+	name: 'Home',
 }
 </script>
 <style>
