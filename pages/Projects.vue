@@ -28,7 +28,7 @@
            target="_blank">
           <div class="relative">
             <div class="carousel-image">
-              <progressive-img src="hendercareLogo.svg"
+              <progressive-img src="~/static/hendercareLogo.svg"
                                class="mx-auto action-image" />
             </div>
             <div class="p-8 absolute bottom-0">
@@ -46,7 +46,7 @@
            target="_blank">
           <div class="relative">
             <div class="carousel-image">
-              <progressive-img src="BeaumontLogo.svg" />
+              <progressive-img src="~/static/BeaumontLogo.svg" />
             </div>
             <div class=" p-8 absolute bottom-0">
               <h2>Beaumont Tiles</h2>
@@ -60,7 +60,7 @@
            target="_blank">
           <div class="relative">
             <div class="carousel-image">
-              <progressive-img src="actionMarketResearch.svg"
+              <progressive-img src="~/static/actionMarketResearch.svg"
                                class="mx-auto action-image" />
             </div>
             <div class="text-white p-8 absolute bottom-0">
