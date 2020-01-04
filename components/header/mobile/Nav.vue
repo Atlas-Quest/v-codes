@@ -3,11 +3,12 @@
   <div class="flex items-center">
     <div class="w-1/2 justify-start items-center">
       <h1 class="text-black">
-        <nuxt-link to="/">
+        <a href="/"
+           @click="menuClosed()">
           <img class="h-16"
                src="~/static/Logo.png"
                alt="logo" />
-        </nuxt-link>
+        </a>
       </h1>
     </div>
     <div class="flex justify-end w-1/2"
