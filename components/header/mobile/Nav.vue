@@ -3,12 +3,11 @@
   <div class="flex items-center">
     <div class="w-1/2 justify-start items-center">
       <h1 class="text-black">
-        <a href="/"
-           @click="menuClosed()">
+        <div @click="navigate('/')">
           <img class="h-16"
                src="~/static/Logo.png"
                alt="logo" />
-        </a>
+        </div>
       </h1>
     </div>
     <div class="flex justify-end w-1/2"
@@ -19,16 +18,19 @@
 
   <div class="flex flex-col w-full mt-16 text-3xl">
     <h2 class="pb-8">
-      <a href="/about"
-         @click="menuClosed()">
+      <div @click="navigate('/')">
+        Home
+      </div>
+    </h2>
+    <h2 class="pb-8">
+      <div @click="navigate('/about')">
         About
-      </a>
+      </div>
     </h2>
     <h2>
-      <a href="/projects"
-         @click="menuClosed()">
+      <div @click="navigate('/projects')">
         Projects
-      </a>
+      </div>
     </h2>
   </div>
 </div>
@@ -40,6 +42,12 @@ import iClose from '~/components/icons/Close'
 export default {
 	name: 'MobileNav',
 	components: { iClose },
-	methods: { ...mapMutations(['menuClosed']) }
+	methods: {
+		...mapMutations(['menuClosed']),
+		navigate(url) {
+			if (this.$route.path === url) return this.menuClosed()
+			this.$router.push(url)
+		}
+	}
 }
 </script>
