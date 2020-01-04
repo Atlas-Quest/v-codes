@@ -18,23 +18,27 @@
 
   <div class="flex flex-col w-full mt-16 text-3xl">
     <h2 class="pb-8">
-      <nuxt-link to="/about">
+      <a href="/about"
+         @click="menuClosed()">
         About
-      </nuxt-link>
+      </a>
     </h2>
     <h2>
-      <nuxt-link to="/projects">
+      <a href="/projects"
+         @click="menuClosed()">
         Projects
-      </nuxt-link>
+      </a>
     </h2>
   </div>
 </div>
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 import iClose from '~/components/icons/Close'
 export default {
 	name: 'MobileNav',
-	components: { iClose }
+	components: { iClose },
+	methods: { ...mapMutations(['menuClosed']) }
 }
 </script>
